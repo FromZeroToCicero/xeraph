@@ -4,6 +4,8 @@
 
 <img src="./client/src/images/app-screen.png" alt="Xeraph-FZTC" width="800" />
 
+## Website is available [here](https://xeraph-fztc.vercel.app/).
+
 ## Available Scripts
 
 In the client project directory, you can run:
