@@ -1,0 +1,26 @@
+{
+  "name": "xeraph_smart_contract",
+  "version": "1.0.0",
+  "description": "Smart contract for Xeraph Blockchain App",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "npx hardhat run scripts/deploy.js --network rinkeby",
+    "test": "npx hardhat test"
+  },
+  "keywords": [
+    "blockchain",
+    "solidity",
+    "smart_contract"
+  ],
+  "author": "FromZeroToCicero",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.5",
+    "@nomiclabs/hardhat-waffle": "^2.0.2",
+    "chai": "^4.3.6",
+    "dotenv": "^16.0.0",
+    "ethereum-waffle": "^3.4.0",
+    "ethers": "^5.5.4",
+    "hardhat": "^2.8.4"
+  }
+}
